@@ -13,3 +13,9 @@
   font-family: sans-serif;
   text-align: center;
 }
+.material-symbols-outlined {
+  /* Estilos para el ícono */
+  font-family: 'Material Symbols Outlined', sans-serif;
+  font-size: 24px; /* Ajusta el tamaño según tus necesidades */
+  color: #000; /* Ajusta el color según tus necesidades */
+}

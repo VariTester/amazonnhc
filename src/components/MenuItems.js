@@ -1,32 +1,37 @@
 export const MenuItems = [
     {
-        title : "Home",
-        url :  "/",
+        title: "Home",
+        url: "/",
         cName: "nav-links",
-        icon : "fa-solid fa-house-chimney"
+        icon: "fa-solid fa-house-chimney"
     },
     {
-        title : "About",
-        url :  "/about",
+        title: "Ayahuasca Retreats",
+        url: "/ayahuascaRetreats",
         cName: "nav-links",
-        icon : "fa-solid fa-circle-info"
+        icon: "fas fa-praying-hands"
     },
     {
-        title : "Service",
-        url :  "/service",
+        title: "Preparation",
+        url: "/preparation",
         cName: "nav-links",
-        icon : "fa-solid fa-briefcase"
+        icon: "fas fa-exclamation-triangle"
     },
     {
-        title : "Contac us",
-        url :  "/contacus",
+        title: "About Us",
+        url: "/aboutUs",
         cName: "nav-links",
-        icon : "fas fa-address-book"
+        icon: "fas fa-users"
     },
     {
-        title : "Sign Up",
-        url :  "/singup",
-        cName: "nav-links-mobile",
+        title: "Contact Us",
+        url: "/contactUs",
+        cName: "nav-links",
+        icon: "fas fa-envelope"
     },
-
-]
+    // {
+    //     title: "Contact us",
+    //     url: "/signup",
+    //     cName: "nav-links-mobile",
+    // },
+];

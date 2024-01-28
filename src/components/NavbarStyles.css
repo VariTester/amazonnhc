@@ -40,7 +40,7 @@
     padding-right: 10px;
 }
 .nav-links:hover{
-    background-color: #01959a;
+    background-color: #04a54a;
     color: #fff;
     border-radius: 4px;
 
@@ -75,8 +75,44 @@ button:hover{
 .Logo {
     width: 80px; /* Ajusta el ancho según tus necesidades */
 }
+/* @media screen and (max-width: 1385px){
+    .navbar-logo {
+  
+        font-size: 1.5rem;
 
-@media screen and (max-width: 1094px){
+    } 
+}
+
+@media screen and (max-width: 1317px){
+    .navbar-logo {
+  
+        font-size: 1.2rem;
+
+    } 
+}
+@media screen and (max-width: 1262px){
+    .navbar-logo {
+  
+        font-size: 1.1rem;
+
+    } 
+}
+@media screen and (max-width: 1249px){
+    .navbar-logo {
+  
+        font-size: 1rem;
+
+    } 
+}
+@media screen and (max-width: 1236px){
+    .navbar-logo {
+  
+        font-size: 0.90rem;
+
+    } 
+} */
+
+@media screen and (max-width: 1385px){
     .NavbarItems{
         z-index: 99;
     }
@@ -114,7 +150,7 @@ button:hover{
     }
 
     .nav-links:hover{
-        background-color: #01959a;
+        background-color: #04a54a;
         /* transition:  none; */
         transition: 0.3s ease-in-out;
     }
