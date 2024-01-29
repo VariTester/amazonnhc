@@ -1,5 +1,5 @@
 import "./styles.css"
-import Navbar from "./components/Navbar"
+// import Navbar from "./components/Navbar"
 import { Route, Routes } from "react-router-dom";
 import Home from "./routes/Home";
 import About from "./routes/Aboutus";
@@ -17,7 +17,7 @@ export default function App(){
         <Route path="/preparation" element={<Preparation/>}/>
 
       </Routes>
-      <Navbar/>
+      
         
 
 
