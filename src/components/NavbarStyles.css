@@ -1,10 +1,11 @@
 .NavbarItems {
+    z-index: 1000;
     background-color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 0 30px;
-    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, .25);
+    box-shadow: 0 5px 15px 0 rgba(0, 0, 0, 0.25);
     width: 95%;
     height: 80px;
     border-radius: 13px;
@@ -41,10 +42,9 @@
     padding-right: 10px;
 }
 .nav-links:hover{
-    background-color: #04a54a;
+    background-color: #222;
     color: #fff;
     border-radius: 4px;
-
     transition: all 0.2s ease-in-out;
 }
 
@@ -76,44 +76,17 @@ button:hover{
 .Logo {
     width: 80px; /* Ajusta el ancho según tus necesidades */
 }
-/* @media screen and (max-width: 1385px){
+
+@media screen and (max-width: 1391px){
     .navbar-logo {
   
-        font-size: 1.5rem;
+        display: none;
 
-    } 
+    }
 }
 
-@media screen and (max-width: 1317px){
-    .navbar-logo {
-  
-        font-size: 1.2rem;
 
-    } 
-}
-@media screen and (max-width: 1262px){
-    .navbar-logo {
-  
-        font-size: 1.1rem;
-
-    } 
-}
-@media screen and (max-width: 1249px){
-    .navbar-logo {
-  
-        font-size: 1rem;
-
-    } 
-}
-@media screen and (max-width: 1236px){
-    .navbar-logo {
-  
-        font-size: 0.90rem;
-
-    } 
-} */
-
-@media screen and (max-width: 1385px){
+@media screen and (max-width: 1055px){
     .NavbarItems{
         z-index: 99;
     }
@@ -121,6 +94,7 @@ button:hover{
         display: flex;
         flex-direction: column;
         justify-content: flex-start;
+        /* background-color: #fff; */
         background-color: #fff;
         width: 100%;
         height: auto;
@@ -151,7 +125,7 @@ button:hover{
     }
 
     .nav-links:hover{
-        background-color: #04a54a;
+        background-color: #222;
         /* transition:  none; */
         transition: 0.3s ease-in-out;
     }
@@ -187,7 +161,8 @@ button:hover{
 
     .navbar-logo {
   
-        font-size: 1.9rem;
+        font-size: 1.5rem;
+        display: block;
 
     }
 
