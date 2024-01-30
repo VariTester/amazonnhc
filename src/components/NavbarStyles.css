@@ -81,7 +81,7 @@ button:hover{
     .navbar-logo {
   
         display: none;
-
+        
     }
 }
 
@@ -161,7 +161,7 @@ button:hover{
 
     .navbar-logo {
   
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         display: block;
 
     }
