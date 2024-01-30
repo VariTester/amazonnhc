@@ -2,6 +2,7 @@ import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 
 import HomeImage from "../assets/images/river.png"
+import FirstPartHome from "../components/FirstPartHome";
 function Home (){
     return(
         <>
@@ -16,6 +17,7 @@ function Home (){
             url = "/"
             btnClass = "show"
         />
+        <FirstPartHome/>
         </>
     )
 }

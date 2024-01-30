@@ -16,6 +16,7 @@
     padding-top: 4rem !important;
 }
 /* AYAHUASCA */
+
   
 img{
 width: 100%;
@@ -29,18 +30,20 @@ object-fit: cover;
     left: 50%;
     transform: translate(-50%, -50%);
     width: 100%;
+    
 }
 
 .hero-text h1{
-    font-size: 3rem;
+    font-size: 4rem;
     font-weight: 800;
     background: #fff;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent ;
+    
 }
 
 .hero-text p{
-    font-size: 1.3rem;
+    font-size: 1.6rem;
     color: #fff;
     padding: 0.5rem 0 2rem 0;
 }
