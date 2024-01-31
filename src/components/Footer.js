@@ -8,7 +8,7 @@ const Footer = () =>{
             <div className="top">
                 <div>
                     <img src={FooterLogo}></img>
-                    <p>Your best option for a ayahuasca retreat</p>
+                    <p>Your best option for an ayahuasca retreat</p>
                 </div>
                 <div>
                     <a hrf="/">

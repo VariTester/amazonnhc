@@ -16,7 +16,7 @@ function Home (){
             title = "Transform your life, find peace"
             text = "Choose Your Favourite Retreat"
             buttonText = "Retreat Plans"
-            url = "/ayahuascaRetreats"
+            url = "/contactUs"
             btnClass = "show"
         />
         <FirstPartHome/>
