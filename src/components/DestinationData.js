@@ -9,23 +9,37 @@ import HomeImg4 from "../assets/images/logo.png"
 class DestinationData extends Component{
     render(){
         return(
-            <div className={this.props.classname}>
-            <div className="des-text">
-                <h2>{this.props.heading}</h2>
-                <p>
-                 {this.props.text1}
-                 <br/>
-                 <br/>
-                </p>
-                <p>
-                {this.props.text2}
-                </p>
+            <div className="first-des">
+                <div className="des-text">
+                    <h2>{this.props.heading}</h2>
+                    <p>{this.props.text1}</p>
+                    <p>{this.props.text2} </p>
+                </div>
+                <div className="image">
+                    <img alt="img" src={this.props.img1}/>
+                    <img alt="img" src={this.props.img2}/>
+                </div>
             </div>
-            <div className="image">
-                <img alt="img" src={this.props.img1}/>
-                <img alt="img" src={this.props.img2}/>
-            </div>
-        </div>
+
+
+
+        //     <div className={this.props.classname}>
+        //     <div className="des-text">
+        //         <h2>{this.props.heading}</h2>
+        //         <p>
+        //          {this.props.text1}
+        //          <br/>
+        //          <br/>
+        //         </p>
+        //         <p>
+        //         {this.props.text2}
+        //         </p>
+        //     </div>
+        //     <div className="image">
+        //         <img alt="img" src={this.props.img1}/>
+        //         <img alt="img" src={this.props.img2}/>
+        //     </div>
+        // </div>
         )
     } 
 }
