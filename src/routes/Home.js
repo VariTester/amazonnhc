@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar";
 import HomeImage from "../assets/images/river.png"
 import FirstPartHome from "../components/FirstPartHome";
 import Trip from "../components/Trip";
+import Footer from "../components/Footer";
 function Home (){
     return(
         <>
@@ -15,11 +16,12 @@ function Home (){
             title = "Transform your life, find peace"
             text = "Choose Your Favourite Retreat"
             buttonText = "Retreat Plans"
-            url = "/"
+            url = "/ayahuascaRetreats"
             btnClass = "show"
         />
         <FirstPartHome/>
         <Trip/>
+        <Footer/>
         </>
     )
 }

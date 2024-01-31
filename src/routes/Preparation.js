@@ -1,5 +1,7 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+
 import AyahuascaImage from "../assets/images/rio.jpg"
 
 function Preparation (){
@@ -16,6 +18,7 @@ function Preparation (){
             // url = "/"
             // btnClass = "show"
         />
+        <Footer/>
         </>
     )
 }

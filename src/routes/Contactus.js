@@ -1,5 +1,6 @@
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 import AyahuascaImage from "../assets/images/contactanoss.png"
 
@@ -17,6 +18,7 @@ function Contact (){
             // url = "/"
             // btnClass = "show"
         />
+        <Footer/>
         </>
     )
 }
