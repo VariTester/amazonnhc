@@ -26,8 +26,10 @@ const FirstPartHome = () =>{
             text1 = "-Miguel López-Torres 14 December 2023"
             text2 = "My experience at your ayahuasca retreat center was truly transformative and enriching. From the moment I arrived, I felt welcomed by the warmth and authenticity of the environment. The facilitation team demonstrated profound knowledge and respect for the ayahuasca tradition, guiding us with sensitivity throughout the entire process. The facilities were impeccable, creating a serene and safe atmosphere that facilitated immersion in the experience. The personalized attention and constant care from the staff made me feel supported at all times. The ayahuasca ceremony itself was a powerful and illuminating experience. The wisdom shared during the integration sessions was invaluable and significantly contributed to my personal growth process. The connection with the surrounding nature added a special dimension to the overall experience. I would highly recommend this center to anyone seeking an authentic and respectful ayahuasca journey. I deeply appreciate the opportunity to have had this experience at your center, and I am confident that others will also benefit greatly."
 
-            img1 = {HomeImg1}
-            img2 = {HomeImg2}
+            // img1 = {HomeImg1}
+            // img2 = {HomeImg2}
+            img1 = "https://cdn-ldagp.nitrocdn.com/uYzlcUMPWElXpehuHiVviHPMUgfwkWhf/assets/images/optimized/rev-02498c0/templeofthewayoflight.org/wp-content/uploads/2023/07/The_Temple_of_the_Way_of_Light_Publio_Valle_thumbnail-1024x583.jpg"
+            img2 = "https://templeofthewayoflight.org/wp-content/uploads/2023/07/Holding_Safe_Ayahuasca_Ceremonies-scaled.jpg"
             />
         </div>
     );

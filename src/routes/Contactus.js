@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import AyahuascaImage from "../assets/images/contactanoss.png"
+import ContactForm from "../components/ContactForm";
 
 function Contact (){
     return(
@@ -18,6 +19,7 @@ function Contact (){
             // url = "/"
             // btnClass = "show"
         />
+        <ContactForm/>
         <Footer/>
         </>
     )
