@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 
 import HomeImage from "../assets/images/river.png"
 import FirstPartHome from "../components/FirstPartHome";
+import Trip from "../components/Trip";
 function Home (){
     return(
         <>
@@ -18,6 +19,7 @@ function Home (){
             btnClass = "show"
         />
         <FirstPartHome/>
+        <Trip/>
         </>
     )
 }
