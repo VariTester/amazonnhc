@@ -2,7 +2,7 @@ import "./FirstPartHomeStyless.css"
 
 import HomeImg1 from "../assets/images/shipibo.png"
 import HomeImg2 from "../assets/images/shaman.png"
-import HomeImg3 from "../assets/images/logo.png"
+import HomeImg3 from "../assets/images/anhc/plantaroja.jpg"
 import HomeImg4 from "../assets/images/logo.png"
 import DestinationData from "./DestinationData"
 
@@ -14,9 +14,9 @@ const FirstPartHome = () =>{
 <DestinationData
             className = "first-des"
             heading = "Ayahuasca Retreats at Amazon Natural Healing Center"
-            text1 = "The Amazon Natural Healing Center is a traditional natural plant-medicine shamanic healing center located in the Peruvian Amazon Rainforest that offers intensive and spiritual ayahuasca retreats with female and male Shipibo healers."
-            text2 = "We are dedicated to providing our guests with the opportunity to benefit from the ancient healing wisdom of the Shipibo people, and to helping this unique culture preserve its knowledge and identity in the 21st Century."
-            img1 = {HomeImg1}
+            text1 = "The Amazon Natural Healing Center is a traditional integrated healing and wellness center that is centered around natural ayahuasca and shamanic practices guided by indigenous shamans located in the Peruvian Amazon Rainforest about 90 minutes from Iquitos, at mile marker 75, on the way to Nauta. that offers intensive and spiritual ayahuasca retreats with female and male Shipibo healers."
+            text2 = "We are committed to offering our guests the chance to access the ancient healing wisdom of the Shipibo people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century."
+            img1 = {HomeImg3}
             img2 = {HomeImg2}
             />
 
@@ -28,7 +28,7 @@ const FirstPartHome = () =>{
 
             // img1 = {HomeImg1}
             // img2 = {HomeImg2}
-            img1 = "https://cdn-ldagp.nitrocdn.com/uYzlcUMPWElXpehuHiVviHPMUgfwkWhf/assets/images/optimized/rev-02498c0/templeofthewayoflight.org/wp-content/uploads/2023/07/The_Temple_of_the_Way_of_Light_Publio_Valle_thumbnail-1024x583.jpg"
+            img1 = {HomeImg1}
             img2 = "https://templeofthewayoflight.org/wp-content/uploads/2023/07/Holding_Safe_Ayahuasca_Ceremonies-scaled.jpg"
             />
         </div>
