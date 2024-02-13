@@ -36,44 +36,46 @@ function ContactForm() {
                 <input placeholder="Name" type="text" {...register('user_name', {
                     required: true,
                     maxLength: 20,
+                    pattern: /^[A-Za-z]+$/i // Expresión regular para permitir solo letras
                 })}/>
-                {errors.user_name?.type === 'required' && <p>El Nombre es obligatorio</p>}
-                {errors.user_name?.type === 'maxLength' && <p>Solo puede ingresar 20 caracteres</p>}
+                {errors.user_name?.type === 'required' && <p>The Name is required</p>}
+                {errors.user_name?.type === 'maxLength' && <p>You can only enter 20 characters</p>}
+                {errors.user_name?.type === 'pattern' && <p>Only letters are allowed</p>}
                 
                 <input placeholder="Email" type="email" {...register('user_email',{
                     required: true,
                     maxLength: 30,
                     pattern: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}(?:\.[a-zA-Z]{2,})?$/
                 })}/>
-                {errors.user_email?.type === 'required' && <p>El Email es obligatorio</p>}
-                {errors.user_email?.type === 'maxLength' && <p>No puede ingresar más palabras</p>}
-                {errors.user_email?.type === 'pattern' && <p>El formato del email es incorrecto</p>}
+                {errors.user_email?.type === 'required' && <p>The Email is required</p>}
+                {errors.user_email?.type === 'maxLength' && <p>You cannot enter more words</p>}
+                {errors.user_email?.type === 'pattern' && <p>The email format is incorrect</p>}
                 
                 <input placeholder="Phone Number" type="number" {...register('user_phone',{
                     required: true,
                     maxLength: 15,
                     minLength: 7,
                 })}/>
-                {errors.user_phone?.type === 'required' && <p>Ingrese un número de celular o teléfono válido</p>}
-                {errors.user_phone?.type === 'minLength' && <p>Debe ingresar más números</p>}
-                {errors.user_phone?.type === 'maxLength' && <p>Debe ingresar menos números</p>}
+                {errors.user_phone?.type === 'required' && <p>Please enter a valid cell phone or telephone number</p>}
+                {errors.user_phone?.type === 'minLength' && <p>You must enter more numbers</p>}
+                {errors.user_phone?.type === 'maxLength' && <p>You must enter fewer numbers</p>}
                 
                 <input placeholder="Country" type="text" {...register('user_country',{
                     required: true,
                     maxLength: 50,
                 })}/>
-                {errors.user_country?.type === 'required' && <p>El País es obligatorio</p>}
+                {errors.user_country?.type === 'required' && <p>The Country is required</p>}
                 
                 <textarea placeholder="Message" {...register('message',{
                     required: true,
                     minLength: 10,
                 })} rows="4"/>
-                {errors.user_message?.type === 'required' && <p>Debe brindarnos más información</p>}
-                {errors.user_message?.type === 'minLength' && <p>Cuentenos un poco más sobre lo que desea</p>}
+                {errors.user_message?.type === 'required' && <p>Please provide us with more information</p>}
+                {errors.user_message?.type === 'minLength' && <p>Tell us a little more about what you want</p>}
                 
                 <button type="submit">Send Message</button>
             </form>
-            {isSuccess && <p>Mensaje enviado con éxito</p>}
+            {isSuccess && <p>Message sent successfully</p>}
         </div>
     );
 }

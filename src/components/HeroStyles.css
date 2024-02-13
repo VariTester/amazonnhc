@@ -59,6 +59,14 @@ object-fit: cover;
     color: #222;
 }
 
+.hero-text .show:hover{
+    background-color: #222;
+    transition: 0.3s ease-in-out;
+    color: white;
+}
+
+
+
 @media screen and (max-width: 555px){
     .hero-text h1{
         padding: 10px 20px;
