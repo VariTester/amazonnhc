@@ -14,6 +14,15 @@ class DestinationData extends Component{
                     <h2>{this.props.heading}</h2>
                     <p>{this.props.text1}<br/><br/></p>
                     <p>{this.props.text2} </p>
+                    {/* <button>{this.props.url1}</button> */}
+                    <a href={this.props.url} className={this.props.btnClass}>
+                    {this.props.buttonText}
+                    </a>
+
+                    <a href={this.props.url1} className={this.props.btnClass1}>
+                    {this.props.buttonText1}
+                    </a>
+                    
                 </div>
                 <div className="image">
                     <img alt="img" src={this.props.img1}/>

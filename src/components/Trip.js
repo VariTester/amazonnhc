@@ -13,7 +13,8 @@ function Trip(){
             <div className="tripcard">
 <TripData
                 // image = {Trip1}
-                image = "https://templeofthewayoflight.org/wp-content/uploads/2023/10/Temple_of_the_Way_of_Light_Retreat_Guests-49-1536x1229.jpg"
+                image = "https://www.youtube.com/embed/6ZpyQBq9yJE?si=sM5YuI7MwVe9_e2r"
+                image2 = "https://templeofthewayoflight.org/wp-content/uploads/2023/10/Temple_of_the_Way_of_Light_Retreat_Guests-49-1536x1229.jpg"
                 heading = "Ayahuasca with friends"
                 text = "Embarking on an ayahuasca journey with friends was a truly profound and bonding experience. Sharing the transformative power of the medicine together created a unique connection, as we navigated the depths of our consciousness and supported each other through introspective moments. The shared insights and post-ceremony reflections deepened our friendships, fostering a sense of unity and understanding that will resonate with us for a lifetime. The collective energy and mutual support made the ayahuasca experience even more enriching and memorable"
                 />
