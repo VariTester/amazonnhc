@@ -9,28 +9,27 @@ function Trip(){
     return(
         <div className="trip">
             <h1>Informative Videos</h1>
-            <p>You can see the amazing experience</p>
+            <p>You can see the healing experience</p>
             <div className="tripcard">
 <TripData
                 // image = {Trip1}
-                image = "https://www.youtube.com/embed/6ZpyQBq9yJE?si=sM5YuI7MwVe9_e2r"
-                image2 = "https://templeofthewayoflight.org/wp-content/uploads/2023/10/Temple_of_the_Way_of_Light_Retreat_Guests-49-1536x1229.jpg"
-                heading = "Ayahuasca with friends"
-                text = "Embarking on an ayahuasca journey with friends was a truly profound and bonding experience. Sharing the transformative power of the medicine together created a unique connection, as we navigated the depths of our consciousness and supported each other through introspective moments. The shared insights and post-ceremony reflections deepened our friendships, fostering a sense of unity and understanding that will resonate with us for a lifetime. The collective energy and mutual support made the ayahuasca experience even more enriching and memorable"
+                image = "https://www.youtube.com/embed/ydt9wcfvT3M?si=9dAMJyHR1kD3YxEQ"
+                heading = "What is AYAHUASCA?"
+                text = "Ayahuasca is an ancient medicine used by Amazonian indigenous cultures since time immemorial. It is carefully crafted from the combination of the ayahuasca vine (Banisteriopsis caapi) and other select medicinal plants. This powerful spiritual medicine has been revered for its ability to heal the body, mind, and spirit. Many individuals have experienced profound transformations and miraculous healings through the visions and teachings provided by Ayahuasca. It is an invaluable tool for those seeking emotional, spiritual, and physical healing, offering a direct connection to the divine and a deeper understanding of oneself and the universe."
                 />
 
 <TripData
                 // image = {Trip2}
-                image = "https://templeofthewayoflight.org/wp-content/uploads/2023/10/Temple_of_the_Way_of_Light_Temple_Grounds-67-1536x864.jpg"
-                heading = "Our Stand"
-                text = "Traditional Amazonian plant-spirit healing offers a solution to the modern epidemic of depression, anxiety, and stress; encouraging a revolution in our healthcare systems, and in the way that society addresses mental health and the source of disease."
+                image = "https://www.youtube.com/embed/0t0nN3aWf5M?si=EbA_uXeHQgQAsTib"
+                heading = "Icaros"
+                text = "Healing, traditional, and ancestral singing with ayahuasca: is a practice involving singing during ayahuasca ceremonies. These songs, often called (icaros) in the Amazonian tradition, are sung by shamans or experienced practitioners during ayahuasca sessions to guide and facilitate the healing process. It is believed that these melodies possess healing and spiritual powers, intended to open energetic pathways, protect participants, and facilitate communication with plant spirits and the universe. Healing singing with ayahuasca is an integral part of the ceremonial experience and is considered a direct connection to the divine and the sacred."
                 />
 
 <TripData
                 // image = {Trip3}
-                image = "https://templeofthewayoflight.org/wp-content/uploads/2023/10/Temple_of_the_Way_of_Light_Ceremonies-9-1024x684.jpg"
-                heading = "Outside of Ayahuasca Ceremony"
-                text = "Providing a nurturing and friendly atmosphere to support guests throughout their process is essential to helping them begin to integrate and process their experiences. We hold group sharings on certain days after ceremony, as part of a carefully designed daily program that treats your time out of ceremony with equal importance to your work inside of ceremony."
+                image = "https://www.youtube.com/embed/KLWXwqllqss?si=B_n9uxJq94SN4zDN"
+                heading = "The preparation of ayahuasca"
+                text = "Preparing ayahuasca involves a sacred and meticulous process. It begins with the gathering of specific plant materials, typically including the ayahuasca vine (Banisteriopsis caapi) and other botanicals with psychoactive properties. These plants are then carefully cleaned, shredded, and brewed together in a ceremonial manner, often under the guidance of experienced shamans or healers. The brewing process can take several hours and is infused with intention, prayer, and reverence for the spiritual powers of the plants. Ayahuasca preparation is not merely a physical task but a sacred ritual that honors the interconnectedness of all living beings and seeks to establish a profound connection with the spiritual realms."
                 />
             </div>
         </div>

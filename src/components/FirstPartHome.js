@@ -1,6 +1,6 @@
 import "./FirstPartHomeStyless.css"
 
-import HomeImg1 from "../assets/images/shipibo.png"
+import HomeImg1 from "../assets//images/anhc/shaman.jpg"
 import HomeImg2 from "../assets/images/shaman.png"
 import HomeImg3 from "../assets/images/anhc/plantaroja.jpg"
 import HomeImg4 from "../assets/images/logo.png"
