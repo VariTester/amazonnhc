@@ -133,7 +133,7 @@ main .container{
 .details .author p{
     text-transform: capitalize;
     text-align: start;
-    background: red;
+    /* background: red; */
     margin-right: 10px;
     font-size: 15px;
 }
@@ -141,7 +141,7 @@ main .container{
 
     .mainContent {
         width: 100%;
-        background: rgb(132, 0, 255);
+        /* background: rgb(132, 0, 255); */
     }
 
     .sideContent {
