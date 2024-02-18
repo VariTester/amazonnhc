@@ -67,13 +67,19 @@ main .container{
     line-height: 30px;
 }
 
+.descbot p{
+    text-align: justify;
+}
+
 .descbot h1{
+    text-align: start;
     font-weight: 600;
     font-size: 30px;
     margin-top: 30px;
 }
 
 .quote {
+    display: flex;
     padding-left: 50px;
     border-left:5px solid red;
 }
@@ -85,22 +91,80 @@ main .container{
 }
 
 .quote p {
+    text-align: justify;
+    margin-left: 10px;
     font-size: 18px;
 }
 
 
 @media screen and (max-width: 768px) {
     main .container{
+        /* margin: 4rem 6rem; */
+
+        padding: 30px;
         flex-direction: column;
     } 
 
+    .details img{
+    /* position: relative; */
+    margin-left: 25px;
+    height: auto;
+    width: 100%;
+}
+
+.desctop p {
+    width: 100%;
+    text-align: justify;
+    display:flex;
+    margin-left: 25px;
+    /* margin: 20px 0; */
+    line-height: 30px;
+}
+
+.descbot p {
+    width: 100%;
+    text-align: justify;
+    display:flex;
+    margin-left: 25px;
+    /* margin: 20px 0; */
+    line-height: 30px;
+}
+
+.details .author p{
+    text-transform: capitalize;
+    text-align: start;
+    background: red;
+    margin-right: 10px;
+    font-size: 15px;
+}
+
+
     .mainContent {
         width: 100%;
+        background: rgb(132, 0, 255);
     }
 
     .sideContent {
         width: 100%;
     }
+
+    .details .title {
+        text-align: start;
+        font-size: 25px;
+    }
+    
+    .details .author {
+        display: flex;
+        align-items: center;
+        font-weight: 500;
+        margin: 20px 0;
+    }
+
+    .author span{
+        margin-left: 20px;
+    }
+
+    
     
 }
 

@@ -19,20 +19,23 @@ const AboutUsData = () => {
             </div>
 
             <div className='desctop'>
-                <p>The Amazon Natural Healing Center is a traditional integrated healing and wellness center that is centered around natural ayahuasca and shamanic practices guided by indigenous shamans located in the Peruvian Amazon Rainforest about 90 minutes from Iquitos, at mile marker 75, on the way to Nauta. that offers intensive and spiritual ayahuasca retreats with female and male Shipibo healers.</p>
-                <p>We are committed to offering our guests the chance to access the ancient healing wisdom of the Shipibo people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century.</p>
+                <p>The Amazon Natural Healing Center is a traditional integrated healing and wellness center that is centered around natural ayahuasca and shamanic practices guided by indigenous shamans located in the Peruvian Amazon Rainforest about 90 minutes from Iquitos, at mile marker 75, on the way to Nauta. Once there our center is about a 45-75 minute walk from the road to our jungle interior. Be sure to travel light, with your overnight belongings in a backpack.</p>
+                <p>Our center has 5 boutique jungle lodges that include shower and flush toilet. Each room features a hand-carved wooden mask by the indigenous Boras with an animal spirit that you can use for your energy during your ayahuasca journey. The animal spirits are the jaguar, anaconda, amazon kingfisher, and butterfly.</p>
+                
             </div>
 
             <img src={img2} alt=''/>
 
             <div className='descbot'>
-                <h1>HOLAAAAAAA</h1>
-                <p>DATAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                <h1>We provide complete trust and full healing for you to improve your health</h1>
+                <br></br>
+                <p>We are committed to offering our guests the chance to access the ancient healing wisdom of the Shipibo people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century.</p>
+                <br></br>            
             </div>
 
             <div className='quote'>
                 <i className='fa fa-quote-left'></i>
-                <p>quoteeeeeeeeeeeeee</p>
+                <p>We are committed to offering our guests the chance to access the ancient healing wisdom of the Shipibo people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century.</p>
             </div>
             </section>
 
