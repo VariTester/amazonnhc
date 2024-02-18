@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import AyahuascaImage from "../assets/images/selva2.jpg"
+import AboutUsData from "../components/AboutUsData";
 
 function About (){
     return(
@@ -18,6 +19,7 @@ function About (){
             // url = "/"
             // btnClass = "show"
         />
+        <AboutUsData/>
         <Footer/>
         </>
     )
