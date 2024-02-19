@@ -33,7 +33,8 @@ const AboutUsData = () => {
                 <p><i class="fa fa-phone"></i> +51 931 552 874 Weninger/Peru</p>
                 <p><i class="fa fa-phone"></i> +1 505 720 4704 Weninger/U.S.</p>
                 <p><i class="fa fa-phone"></i> +1 240 687 7121 Karin/U.S.</p>
-                <br></br>            
+                <br></br>
+                          
             </div>
 
             <div className='quote'>

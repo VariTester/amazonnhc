@@ -11,6 +11,10 @@ const Footer = () =>{
                     <p>Your best option for an ayahuasca retreat</p>
                 </div>
                 <div>
+                <a href='https://wa.me/51992329593?text=Hello can I help you?' target='_blank'>
+    <i className="fab fa-whatsapp-square"></i>
+</a>
+
                     <a hrf="/">
                         <i className="fa-brands fa-facebook-square"></i>
                     </a>
