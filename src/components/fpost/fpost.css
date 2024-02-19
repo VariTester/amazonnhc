@@ -1,0 +1,38 @@
+  .fpost .box {
+    display: flex;
+    margin-bottom: 20px;
+  }
+  .fpost .img {
+    width: 100px;
+    height: 80px;
+  }
+  .fpost img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+  }
+  .fpost .text {
+    padding: 0 15px;
+  }
+  .fpost h1 {
+    text-align: start;
+    font-size: 15px;
+    
+  }
+  .fpost span {
+    margin-top: 10px;
+    display: flex;
+    /* text-align: left; */
+    font-size: 12px;
+    color: grey;
+  }
+  @media screen and (max-width: 768px) {
+    .fpost .img,
+    .fpost img {
+      width: 200px;
+      height: 150px;
+    }
+    .fpost .text {
+      width: 100%;
+    }
+  }

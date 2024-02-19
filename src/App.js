@@ -22,18 +22,10 @@ export default function App(){
 
 
       <div className='whatsapp-button p-3'>
-  <a href='https://wa.me/51992329593?text=Hi I need more information' target='_blank'>
-    <img src={whatsapplogo} alt='WhatsApp' style={{ width: '60px', height: '60px' }} />
-  </a>
-</div>
-
-
-
-
-
-
-
-
+        <a href='https://wa.me/51992329593?text=Hi I need more information' target='_blank'>
+          <img src={whatsapplogo} alt='WhatsApp' style={{ width: '60px', height: '60px' }} />
+        </a>
+      </div>
     </div>
   );
 }
