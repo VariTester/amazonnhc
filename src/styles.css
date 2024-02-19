@@ -27,3 +27,10 @@
   font-size: 24px; /* Ajusta el tamaño según tus necesidades */
   color: #000; /* Ajusta el color según tus necesidades */
 }
+
+.whatsapp-button {
+  position: fixed;
+  bottom: 20px; /* Ajusta la distancia desde abajo según tus preferencias */
+  right: 20px; /* Ajusta la distancia desde la derecha según tus preferencias */
+  z-index: 6;
+}
