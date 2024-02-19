@@ -10,7 +10,7 @@ const AboutUsData = () => {
         <main>
         <div className='container'>
         <section className='mainContent details'>
-            <h1 className='title'>Google to Boost Android Security In Few Days</h1>
+            <h1 className='title'>Get to know a little more about us and dare to this new healing experience</h1>
 
             <div className='author'>
                 <span>by</span>
@@ -28,12 +28,15 @@ const AboutUsData = () => {
             <div className='descbot'>
                 <h1>We provide complete trust and full healing for you to improve your health</h1>
                 <br></br>
-                <p>Hello, you are greeted by the Operational Manager, Weninger Pezo, and the Strategic Plans Manager, Karin Pezo, from the incredible team of Amazon Natural Healing. We hope that you can give us the opportunity to assist you in your healing journey, providing you with the necessary comforts and clarifying all your doubts. For this, you can leave us a message in the "Contact Us" section or contact us at the following numbers:</p>
+                <p>Hello, you are greeted by the Operational Manager, Weninger Pezo born in Iquitos, and the Strategic Plans Manager, Karin Pezo from the United States, most recently New Mexico, we are part of the incredible team of Amazon Natural Healing. We hope that you can give us the opportunity to assist you in your healing journey, providing you with the necessary comforts and clarifying all your doubts. For this, you can leave us a message in the "Contact Us" section or contact us at the following numbers:</p>
                 <br></br>
-                <p><i class="fa fa-phone"></i> +51 931 552 874 Weninger/Peru</p>
-                <p><i class="fa fa-phone"></i> +1 505 720 4704 Weninger/U.S.</p>
-                <p><i class="fa fa-phone"></i> +1 240 687 7121 Karin/U.S.</p>
-                <br></br>
+                <div className='numbers'>
+                    <p><i class="fa fa-phone"></i> +51 931 552 874 Weninger/Peru</p>
+                    <p><i class="fa fa-phone"></i> +1 505 720 4704 Weninger/U.S.</p>
+                    <p><i class="fa fa-phone"></i> +1 240 687 7121 Karin/U.S.</p>
+                    <br></br>
+                </div>
+
                           
             </div>
 

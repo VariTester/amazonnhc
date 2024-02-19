@@ -1,5 +1,11 @@
 import fpost1 from './assets/images/rio.jpg'
 import gallery1 from './assets/images/anhc/gallery/bandeja.jpg'
+import gallery2 from './assets/images/anhc/gallery/ayahuasca1.jpg'
+import gallery3 from './assets/images/anhc/gallery/ayahuascaplanta.jpg'
+import gallery4 from './assets/images/anhc/gallery/shaman1.jpg'
+import gallery5 from './assets/images/anhc/gallery/shaman2.jpg'
+import gallery6 from './assets/images/anhc/gallery/spirit1.jpg'
+
 export const fpost = [
     {
       id: 1,
@@ -23,15 +29,18 @@ export const fpost = [
       cover: gallery1
     },
     {
-      cover: fpost1,
+      cover: gallery2,
     },
     {
-      cover: fpost1,
+      cover: gallery3,
     },
     {
-      cover: fpost1,
+      cover: gallery4,
     },
     {
-      cover: fpost1,
+      cover: gallery5,
     },
+    {
+      cover: gallery6,
+    }
   ]
