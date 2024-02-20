@@ -6,6 +6,7 @@ import img2 from '../assets/images/anhc/team.jpg'
 import Heading from './heading/Heading'
 import SocialMedia from './sideContent/SocialMedia'
 import Fpost from './fpost/Fpost'
+import Face from './facebook/Face'
 const AyahuascaData = () => {
   return (
     <>
@@ -42,6 +43,7 @@ const AyahuascaData = () => {
                 <i className='fa fa-quote-left'></i>
                 <p>We are committed to offering our guests the chance to access the ancient healing wisdom of the Shipibo people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century.</p>
             </div> */}
+            <Face/>
             </section>
 
             <section className='sideContent'>

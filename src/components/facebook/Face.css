@@ -1,0 +1,28 @@
+/*----------gallery----------*/
+.gallery1 .img {
+    display: inline-block;
+    width: fit-content;
+    height: fit-content;
+  }
+  
+  .gallery1 img {
+    padding: 10px;
+    width: 100%;
+    height: 500px; /* Ajustar la altura automáticamente */
+  }
+  /*----------gallery----------*/
+  
+  @media screen and (max-width: 768px) {
+    .gallery1 .img {
+        width: 315px;
+        height: 200px;
+        
+      }
+      .gallery1 img {
+        /* margin-left: 45px; */
+        /* padding: 10px; */
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
+      }
+  }
