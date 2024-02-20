@@ -1,0 +1,48 @@
+.music .box {
+  margin-bottom: 30px;
+  margin-left: 2px;
+}
+.music .text {
+  padding: 0 30px;
+}
+.music .images {
+    width: 500px;
+    
+    /* height: 220px; */
+    /* Elimina la propiedad height y deja que la imagen se ajuste automáticamente */
+  }
+  
+  .music img {
+    width: 100%; /* Ajusta la imagen para que ocupe todo el ancho del contenedor */
+    height: 200px; /* Ajusta la altura automáticamente para mantener la relación de aspecto original */
+    object-fit: contain;
+  }
+
+  .music .title{
+    font-size: 15px;
+  }
+  .music .date{
+    text-align: start;
+  }
+  .music .desc{
+    text-align: start;
+  }
+  
+.music h1 {
+  font-size: 22px;
+}
+@media screen and (max-width: 768px) {
+    .music img,
+    .music .images {
+      display: none;
+    }
+  
+    .music .title {
+      font-size: 15px;
+      text-align: left; /* Alinear el texto a la izquierda */
+      margin-left: 20px;
+      width: 100%;
+    }
+    
+  }
+  

@@ -3,6 +3,7 @@ import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 
 import AyahuascaImage from "../assets/images/rio.jpg"
+import PreparationData from "../components/PreparationData";
 
 function Preparation (){
     return(
@@ -18,6 +19,7 @@ function Preparation (){
             // url = "/"
             // btnClass = "show"
         />
+        <PreparationData/>
         <Footer/>
         </>
     )

@@ -1,30 +1,30 @@
 import React from 'react'
-import './AyahuascaData.css'
-import Side from './sideContent/Side'
-import img1 from '../assets/images/logo.png'
-import img2 from '../assets/images/anhc/team.jpg'
 import Heading from './heading/Heading'
 import SocialMedia from './sideContent/SocialMedia'
+import SideDiet from './sideContent/SideDiet'
 import Fpost from './fpost/Fpost'
 import Face from './facebook/Face'
 import Comments from './comments/Comments'
-import SideDiet from './sideContent/SideDiet'
-const AyahuascaData = () => {
+import Gallery from './gallery/Gallery'
+
+const PreparationData = () => {
   return (
     <>
         <main>
         <div className='container'>
         <section className='mainContent details'>
-            <h1 className='title'>The prices and package</h1>
+            <h1 className='title'>Ayahuasca diet</h1>
 
             <div className='author'>
-                <p>The minimum stay is 2 nights due to transportation logistics.</p>
+                <p>The pre-Ayahuasca diet is somewhat unique to the Peruvian Amazon</p>
             </div>
 
             <div className='desctop'>
-                <p>$265 USD per person, per night, double occupancy. Single occupancy is $295 USD per person, per night. You can pay through PayPal or cash. The full amount is due in USD at pickup from hotel.</p>
-                <p>Price includes pickup and return to hotel in Iquitos, transportation to and from lodge, healthy food corresponding to ayahuasca diet, pre-ayahuasca chanting, ayahuasca ritual ceremony, and guided journey by indigenous shaman. The following morning, the shaman will help interpret your visions in terms of meaning and relevancy.</p>
-                <p>Ayahuasca ceremonies are conducted in the Shaman House, about a two-minute walk from your bungalow. The ayahuasca used is harvested and prepared according to authentic and timeless traditions of indigenous shamans. This is to ensure the efficacy and purity of the brew. It is not pre-bought in markets, where no one really knows what went into the concoction.</p>
+                <p>Ayahuasca, a sacred plant medicine revered for its profound healing properties, is deeply intertwined with the cultural fabric of the Peruvian Amazon. Central to the Ayahuasca experience is the pre-Ayahuasca diet, a ritualistic practice designed to prepare both body and mind for the transformative journey ahead.</p>
+                <p>This diet, rooted in ancient wisdom, follows the Five “S’s” principle: Minimize salt, sugar, spices, spirits, and sex. By adhering to these guidelines, participants cleanse their bodies of impurities, allowing the potent brew of Ayahuasca to work its magic unimpeded.</p>
+                <p>Minimizing salt and sugar reduces unnecessary stimulation, while abstaining from spices and spirits ensures clarity of consciousness during the ceremony. Additionally, refraining from sexual activity helps to conserve vital energy, directing it towards the healing process.</p>
+                <p>Our experienced shamans recommend initiating this diet at least three days prior to your Ayahuasca experience, allowing ample time for the body to detoxify and prepare. Following the guided journey, it is advised to continue the diet for at least one week, allowing the healing energies of Ayahuasca to integrate fully into your being.</p>
+                <p>Embracing the Ayahuasca diet is not merely a physical practice, but a sacred ritual that honors the ancient traditions and wisdom of the Amazonian people. It serves as a pathway to self-awareness, healing, and spiritual growth, guiding participants on a profound journey of inner exploration and transformation.</p>
             </div>
 
             {/* <img src={img2} alt=''/> */}
@@ -45,8 +45,7 @@ const AyahuascaData = () => {
                 <i className='fa fa-quote-left'></i>
                 <p>We are committed to offering our guests the chance to access the ancient healing wisdom of the Shipibo people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century.</p>
             </div> */}
-            <Face/>
-            {/* <Comments/> */}
+            <Comments/>
             </section>
 
             <section className='sideContent'>
@@ -54,6 +53,7 @@ const AyahuascaData = () => {
             <SocialMedia/>
             <SideDiet/>
             <Fpost/>
+            <Gallery/>
             </section>
         </div>
         </main>
@@ -61,4 +61,4 @@ const AyahuascaData = () => {
   )
 }
 
-export default AyahuascaData
+export default PreparationData
