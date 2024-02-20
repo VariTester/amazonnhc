@@ -69,7 +69,9 @@ object-fit: cover;
 
 @media screen and (max-width: 555px){
     .hero-text h1{
-        padding: 10px 20px;
+        padding: 10px 10px;
+        font-size: 3rem;
+
     }
 
     .hero-text h1 p{
