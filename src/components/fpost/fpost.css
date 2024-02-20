@@ -26,6 +26,12 @@
     font-size: 12px;
     color: grey;
   }
+
+  .fpost a{
+    text-decoration: none;
+    color: inherit; /* Hereda el color del texto del contenedor padre */
+    text-decoration: none; /* Quita el subrayado */
+  }
   @media screen and (max-width: 768px) {
     .fpost .img,
     .fpost img {

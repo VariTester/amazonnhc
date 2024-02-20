@@ -16,18 +16,22 @@ import pop8 from './assets/images/anhc/gallery/extranjero8.png'
 export const fpost = [
     {
       id: 1,
-      title: "US Promises to give Intel aid to locate the soldiers",
-      cover: fpost1,
+      title: "Welcome to this beautiful healing experience through ayahuasca sessions. We're your best choice to undergo this healing journey!",
+      cover: 'https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/428672318_122099740880222221_5802014396792545731_n.jpg?stp=dst-jpg_p843x403&_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=0cUctjDVWmcAX-_gU4A&_nc_ht=scontent-lim1-1.xx&oh=00_AfDrB1WjpXOOM9PfrS9AQlLR3mLriEg3-8i8DLCrRZiPFg&oe=65DA10D3',
+      date: '20/02/2024',
+      link: 'https://www.facebook.com/share/p/VDmwfCojeMZYJXWH/?mibextid=WC7FNe'
     },
     {
       id: 2,
       title: "Renewable energy dead as industry waits for Policy",
       cover: fpost1,
+      date: '20/02/2024'
     },
     {
       id: 3,
       title: "Mount Etna erupts fashion in nice looking pictures",
       cover: fpost1,
+      date: '20/02/2024'
     },
   ]
 

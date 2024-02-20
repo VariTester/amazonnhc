@@ -15,16 +15,16 @@ const Footer = () =>{
                 <i className="fab fa-whatsapp-square"></i>
                 </a>
 
-                    <a hrf="/">
+                    <a href="https://www.facebook.com/profile.php?id=61556666640051&mibextid=LQQJ4d">
                         <i className="fa-brands fa-facebook-square"></i>
                     </a>
-                    <a hrf="/">
+                    <a href="/">
                         <i className="fa-brands fa-instagram-square"></i>
                     </a>
-                    <a hrf="/">
-                        <i className="fa-brands fa-behance-square"></i>
+                    <a href="https://youtube.com/@AmazonNaturalHealingCenter?si=0VPNcChM04YDAlpc">
+                        <i className="fa-brands fa-youtube-square"></i>
                     </a>
-                    <a hrf="/">
+                    <a href="/">
                         <i className="fa-brands fa-twitter-square"></i>
                     </a>
                 </div>

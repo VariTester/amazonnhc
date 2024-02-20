@@ -12,15 +12,17 @@ const Fpost = () => {
         <Heading title='Facebook post' />
         {fpost.map((val) => {
           return (
-            <div className='box flexSB'>
+            <a href={val.link}>
+                          <div className='box flexSB'>
               <div className='img'>
                 <img src={val.cover} alt='' />
               </div>
               <div className='text'>
                 <h1 className='title'>{val.title.slice(0, 35)}...</h1>
-                <span>a year ago</span>
+                <span>{val.date}</span>
               </div>
             </div>
+            </a>
           )
         })}
       </section>
