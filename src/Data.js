@@ -5,7 +5,14 @@ import gallery3 from './assets/images/anhc/gallery/ayahuascaplanta.jpg'
 import gallery4 from './assets/images/anhc/gallery/shaman1.jpg'
 import gallery5 from './assets/images/anhc/gallery/shaman2.jpg'
 import gallery6 from './assets/images/anhc/gallery/spirit1.jpg'
-
+import pop1 from './assets/images/anhc/gallery/extranjero1.png'
+import pop2 from './assets/images/anhc/gallery/extranjero2.png'
+import pop3 from './assets/images/anhc/gallery/extranjero3.png'
+import pop4 from './assets/images/anhc/gallery/extranjero4.png'
+import pop5 from './assets/images/anhc/gallery/extranjero5.png'
+import pop6 from './assets/images/anhc/gallery/extranjero6.png'
+import pop7 from './assets/images/anhc/gallery/extranjero7.png'
+import pop8 from './assets/images/anhc/gallery/extranjero8.png'
 export const fpost = [
     {
       id: 1,
@@ -68,10 +75,10 @@ export const fpost = [
     {
       id: 1,
       catgeory: "world",
-      title: "Emily Johnson",
+      title: "Emily Halper",
       date: "19. December 2022",
       comments: 0,
-      cover: gallery1,
+      cover: pop4,
       desc: "My experience at the healing center was truly life-changing! The ayahuasca ceremony opened up doors within myself that I never knew existed. I highly recommend this place to anyone seeking spiritual growth and healing.",
     },
     {
@@ -80,7 +87,7 @@ export const fpost = [
       title: "David Smith",
       date: "02. March 2022",
       comments: 0,
-      cover: gallery1,
+      cover: pop1,
       desc: "What an incredible journey! The ayahuasca retreat at this center was exactly what I needed to reconnect with my inner self. The staff were incredibly supportive and knowledgeable. I can't recommend this place enough",
     },
     {
@@ -89,7 +96,7 @@ export const fpost = [
       title: "Sophie Brown",
       date: "13. February 2022",
       comments: 0,
-      cover: gallery2,
+      cover: pop6,
       desc: "I had the most profound experience at this ayahuasca center. The healing energy and guidance provided by the shamans were beyond words. I would absolutely recommend this to anyone on a spiritual journey.",
     },
     {
@@ -98,16 +105,16 @@ export const fpost = [
       title: "Jack Wilson",
       date: "18. February 2023",
       comments: 0,
-      cover: gallery3,
+      cover: pop2,
       desc: "Visiting this ayahuasca retreat was one of the best decisions I've ever made. The transformative power of the medicine coupled with the serene surroundings made for an unforgettable experience. Highly recommended!",
     },
     {
       id: 5,
       catgeory: "fun",
-      title: "Emma Thompson",
+      title: "Bruce Thompson",
       date: "09. July 2022",
       comments: 0,
-      cover: gallery1,
+      cover: pop7,
       desc: "Words cannot express the depth of gratitude I feel after my time at this ayahuasca center. The healing I experienced was profound and life-changing. I wholeheartedly recommend this place to anyone seeking healing and self-discovery.",
     },
     {
@@ -116,7 +123,7 @@ export const fpost = [
       title: "James Taylor",
       date: "20. August 2023",
       comments: 0,
-      cover: gallery4,
+      cover: pop3,
       desc: "An incredible journey of self-discovery! The ayahuasca ceremonies were conducted with such care and reverence. I felt safe and supported throughout the entire experience. I highly recommend this center to anyone seeking spiritual growth.",
     },
     {
@@ -125,16 +132,16 @@ export const fpost = [
       title: "Olivia White",
       date: "15. June 2023",
       comments: 0,
-      cover: gallery5,
+      cover: pop8,
       desc: "My experience at this ayahuasca retreat was absolutely transformative. The deep healing and insights gained during the ceremonies have stayed with me long after leaving the center. I cannot recommend this place enough to anyone on a journey of self-discovery.",
     },
     {
       id: 8,
       catgeory: "fun",
-      title: "Olivia White",
+      title: "Katherine Jhonson",
       date: "01. March 2022",
       comments: 0,
-      cover: gallery1,
+      cover: pop5,
       desc: "This ayahuasca center provided the perfect environment for profound healing and growth. The shamans were incredibly skilled and compassionate, and the support from the staff was exceptional. I highly recommend this place to anyone seeking a transformative experience.",
     },
   ]
