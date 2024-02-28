@@ -6,7 +6,7 @@ export const MenuItems = [
         icon: "fa-solid fa-house-chimney"
     },
     {
-        title: "Ayahuasca Retreats",
+        title: "Ayahuasca Center",
         url: "/ayahuascaRetreats",
         cName: "nav-links",
         icon: "fas fa-praying-hands"

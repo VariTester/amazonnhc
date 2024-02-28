@@ -14,7 +14,7 @@ const FirstPartHome = () =>{
 <DestinationData
             className = "first-des"
             heading = "Ayahuasca Retreats at Amazon Natural Healing Center"
-            text1 = "The Amazon Natural Healing Center is a traditional integrated healing and wellness center that is centered around natural ayahuasca and shamanic practices guided by indigenous shamans located in the Peruvian Amazon Rainforest about 90 minutes from Iquitos, at mile marker 75, on the way to Nauta. that offers intensive and spiritual ayahuasca retreats with female and male Shipibo healers."
+            text1 = "The Amazon Natural Healing Center is a traditional integrated healing and wellness center that is centered around natural ayahuasca and shamanic practices guided by indigenous shaman located in the Peruvian Amazon Rainforest about 90 minutes from Iquitos, at mile marker 75, on the way to Nauta. that offers intensive and spiritual ayahuasca retreats with an expert healer whose ancestral healing technique was taught to him as a tradition passed down from generation to generation."
             text2 = "We are committed to offering our guests the chance to access the ancient healing wisdom of the Shipibo people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century."
             img1 = {HomeImg3}
             img2 = {HomeImg2}
