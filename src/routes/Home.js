@@ -14,8 +14,8 @@ function Home (){
             // heroImg = "https://images.unsplash.com/photo-1610413341456-e283a1c6026f?q=80&w=1974&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             heroImg = {HomeImage}
             title = "Sacred Journeys & Ayahuasca Healing"
-            text = "Choose Your Favourite Retreat"
-            buttonText = "Retreat Plans"
+            text = "Choose Your Favourite Plan"
+            buttonText = "Healing Plans"
             url = "/ayahuascaRetreats"
             btnClass = "show"
         />
