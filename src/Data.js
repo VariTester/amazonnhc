@@ -17,7 +17,7 @@ export const fpost = [
     {
       id: 1,
       title: "Welcome to this beautiful healing experience through ayahuasca sessions. We're your best choice to undergo this healing journey!",
-      cover: 'https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/428672318_122099740880222221_5802014396792545731_n.jpg?stp=dst-jpg_p843x403&_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=0cUctjDVWmcAX-_gU4A&_nc_ht=scontent-lim1-1.xx&oh=00_AfDrB1WjpXOOM9PfrS9AQlLR3mLriEg3-8i8DLCrRZiPFg&oe=65DA10D3',
+      cover: 'https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/428672318_122099740880222221_5802014396792545731_n.jpg?stp=dst-jpg_p843x403&_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=kL2WIwI9GpAAX_GeaOv&_nc_ht=scontent-lim1-1.xx&oh=00_AfCTH2ObU9-W5meWptss9j1ku-Wo8j_neQ2l9i4nc5SkXA&oe=65E3F413',
       date: '20/02/2024',
       link: 'https://www.facebook.com/share/p/VDmwfCojeMZYJXWH/?mibextid=WC7FNe'
     },

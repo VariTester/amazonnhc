@@ -42,7 +42,7 @@ const AboutUsData = () => {
 
             <div className='quote'>
                 <i className='fa fa-quote-left'></i>
-                <p>We are committed to offering our guests the chance to access the ancient healing wisdom of the Shipibo people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century.</p>
+                <p>We are committed to offering our guests the chance to access the ancient healing wisdom of the indigenous people, while also assisting this distinctive culture in safeguarding its knowledge and heritage in the 21st century.</p>
             </div>
             </section>
 
