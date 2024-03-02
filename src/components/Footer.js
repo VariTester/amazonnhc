@@ -8,7 +8,7 @@ const Footer = () =>{
             <div className="top">
                 <div>
                     <img src={FooterLogo}></img>
-                    <p>Your best option for an ayahuasca retreat</p>
+                    <p>¡ Your best option for an ayahuasca healing !</p>
                 </div>
                 <div>
                 <a href='https://wa.me/51992329593?text=Hi I need more information ' target='_blank'>

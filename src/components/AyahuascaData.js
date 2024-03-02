@@ -22,9 +22,9 @@ const AyahuascaData = () => {
             </div>
 
             <div className='desctop'>
-                <p>$265 USD per person, per night, double occupancy. Single occupancy is $295 USD per person, per night. You can pay through PayPal or cash. The full amount is due in USD at pickup from hotel.</p>
-                <p>Price includes pickup and return to hotel in Iquitos, transportation to and from lodge, healthy food corresponding to ayahuasca diet, pre-ayahuasca chanting, ayahuasca ritual ceremony, and guided journey by indigenous shaman. The following morning, the shaman will help interpret your visions in terms of meaning and relevancy.</p>
-                <p>Ayahuasca ceremonies are conducted in the Shaman House, about a two-minute walk from your bungalow. The ayahuasca used is harvested and prepared according to authentic and timeless traditions of indigenous shamans. This is to ensure the efficacy and purity of the brew. It is not pre-bought in markets, where no one really knows what went into the concoction.</p>
+                <p>$265 USD per person, per night, double occupancy. Single occupancy is $295 USD per person, per night. You can pay in advance half of the price you chose through PayPal or Western Union and cancel the other half when we pick you up from your hotel. The full amount is due in USD and canceled at the moment of picking you up from your hotel.</p>
+                <p>Price includes pickup and return to hotel in Iquitos, transportation to and from lodge, healthy food corresponding to ayahuasca diet, pre-ayahuasca chanting, ayahuasca ritual ceremony, and guided journey by indigenous shaman, subsequently a flower bath to relax the body, soul, and spirit. The following morning, the shaman will help interpret your visions in terms of meaning and relevancy.</p>
+                <p>Ayahuasca ceremonies are conducted in the maloka (Large and rustic house where mosquitoes and other types of insects cannot enter), perfectly conditioned for the ceremony to ensure comfort and safety, which is located a two-minute walk from your bungalow. The ayahuasca used is harvested and prepared according to authentic and timeless traditions of indigenous shamans. This is to ensure the efficacy and purity of the brew. It is not pre-bought in markets or tourist places, where no one really knows what went into the concoction.</p>
             </div>
 
             {/* <img src={img2} alt=''/> */}
