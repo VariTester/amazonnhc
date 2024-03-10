@@ -1,9 +1,9 @@
 import "./FirstPartHomeStyless.css"
 
-import HomeImg1 from "../assets//images/anhc/shaman.jpg"
-import HomeImg2 from "../assets/images/anhc/gallery/shaman3.jpg"
+import HomeImg1 from "../assets//images/anhc/gallery/shaman5.jpeg"
+import HomeImg2 from "../assets/images/anhc/gallery/shaman4.jpeg"
 import HomeImg3 from "../assets/images/anhc/plantaroja.jpg"
-import HomeImg4 from "../assets/images/logo.png"
+import HomeImg4 from "../assets/images/anhc/gallery/maloka1.jpeg"
 import DestinationData from "./DestinationData"
 
 const FirstPartHome = () =>{
@@ -35,7 +35,7 @@ const FirstPartHome = () =>{
             // img1 = {HomeImg1}
             // img2 = {HomeImg2}
             img1 = {HomeImg1}
-            img2 = "https://templeofthewayoflight.org/wp-content/uploads/2023/07/Holding_Safe_Ayahuasca_Ceremonies-scaled.jpg"
+            img2 = {HomeImg4}
             />
         </div>
     );
