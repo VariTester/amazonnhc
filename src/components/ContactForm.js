@@ -36,7 +36,7 @@ function ContactForm() {
                 <input placeholder="Name" type="text" {...register('user_name', {
                     required: true,
                     maxLength: 20,
-                    pattern: /^[A-Za-z]+$/i // Expresión regular para permitir solo letras
+                    pattern: /^[A-Za-z\s]+$/i // Expresión regular para permitir solo letras
                 })}/>
                 {errors.user_name?.type === 'required' && <p>The Name is required</p>}
                 {errors.user_name?.type === 'maxLength' && <p>You can only enter 20 characters</p>}
@@ -75,7 +75,8 @@ function ContactForm() {
                 
                 <button type="submit">Send Message</button>
             </form>
-            {isSuccess && <p>Message sent successfully</p>}
+            {isSuccess && <p style={{ color: 'green' }}>Message sent successfully</p>}
+
         </div>
     );
 }
