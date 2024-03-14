@@ -1,4 +1,3 @@
-import fpost1 from './assets/images/rio.jpg'
 import gallery1 from './assets/images/anhc/gallery/bandeja.jpg'
 import gallery2 from './assets/images/anhc/gallery/ayahuasca1.jpg'
 import gallery3 from './assets/images/anhc/gallery/ayahuascaplanta.jpg'
@@ -10,6 +9,13 @@ import gallery8 from './assets/images/anhc/gallery/weningerboat.jpeg'
 import gallery9 from './assets/images/anhc/gallery/bote1.jpeg'
 import gallery10 from './assets/images/anhc/gallery/bote2.jpeg'
 import gallery11 from './assets/images/anhc/gallery/comida1.jpg'
+import gallery12 from './assets/images/anhc/gallery/comida2.jpeg'
+import gallery13 from './assets/images/anhc/gallery/comida3.jpeg'
+import gallery14 from './assets/images/anhc/gallery/camas.jpeg'
+import gallery15 from './assets/images/anhc/gallery/casas1.jpeg'
+import gallery16 from './assets/images/anhc/gallery/entrada.jpeg'
+import gallery17 from './assets/images/anhc/gallery/puente.jpeg'
+import gallery18 from './assets/images/anhc/gallery/shaman5.jpeg'
 import pop1 from './assets/images/anhc/gallery/extranjero1.png'
 import pop2 from './assets/images/anhc/gallery/extranjero2.png'
 import pop3 from './assets/images/anhc/gallery/extranjero3.png'
@@ -18,25 +24,30 @@ import pop5 from './assets/images/anhc/gallery/extranjero5.png'
 import pop6 from './assets/images/anhc/gallery/extranjero6.png'
 import pop7 from './assets/images/anhc/gallery/extranjero7.png'
 import pop8 from './assets/images/anhc/gallery/extranjero8.png'
+import fpost1 from './assets/images/anhc/facebookpostimages/facebook20022024.jpg'
+import fpost2 from './assets/images/anhc/facebookpostimages/facebook4pm14032024.png'
+import fpost3 from './assets/images/anhc/facebookpostimages/facebookpost03.png'
 export const fpost = [
     {
       id: 1,
       title: "Welcome to this beautiful healing experience through ayahuasca sessions. We're your best choice to undergo this healing journey!",
-      cover: 'https://scontent-lim1-1.xx.fbcdn.net/v/t39.30808-6/428672318_122099740880222221_5802014396792545731_n.jpg?stp=dst-jpg_p843x403&_nc_cat=101&ccb=1-7&_nc_sid=3635dc&_nc_ohc=kL2WIwI9GpAAX_GeaOv&_nc_ht=scontent-lim1-1.xx&oh=00_AfCTH2ObU9-W5meWptss9j1ku-Wo8j_neQ2l9i4nc5SkXA&oe=65E3F413',
+      cover: fpost1,
       date: '20/02/2024',
       link: 'https://www.facebook.com/share/p/VDmwfCojeMZYJXWH/?mibextid=WC7FNe'
     },
     {
       id: 2,
-      title: "Renewable energy dead as industry waits for Policy",
-      cover: fpost1,
-      date: '20/02/2024'
+      title: "Our shaman, with many years of experience in healing with ayahuasca, tells us a bit about himself and the preparation of this healing plant.",
+      cover: fpost2,
+      date: '14/03/2024',
+      link: 'https://fb.watch/qP8bcVTqz8/'
     },
     {
       id: 3,
-      title: "Mount Etna erupts fashion in nice looking pictures",
-      cover: fpost1,
-      date: '20/02/2024'
+      title: "The Amazon Natural Healing Center is a traditional integrated healing and wellness center that is centered around natural ayahuasca and shamanic practices",
+      cover: fpost3,
+      date: '14/03/2024',
+      link: 'https://www.facebook.com/permalink.php?story_fbid=pfbid02Lcdr7kb5tqPM1x7QcmsqgjoKGjRxJNzv4gvrAQbKDoRUoU5rE2xKfVqwAC3R7B9al&id=61556666640051'
     },
   ]
 
@@ -107,7 +118,49 @@ export const fpost = [
       cover: gallery11,
       date: "19. February 2022",
       desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
-    }
+    },
+       {
+      title: "Our Favorite Photos From All Around",
+      cover: gallery12,
+      date: "19. February 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      title: "Our Favorite Photos From All Around",
+      cover: gallery13,
+      date: "19. February 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      title: "Our Favorite Photos From All Around",
+      cover: gallery14,
+      date: "19. February 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      title: "Our Favorite Photos From All Around",
+      cover: gallery15,
+      date: "19. February 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      title: "Our Favorite Photos From All Around",
+      cover: gallery16,
+      date: "19. February 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      title: "Our Favorite Photos From All Around",
+      cover: gallery17,
+      date: "19. February 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
+    {
+      title: "Our Favorite Photos From All Around",
+      cover: gallery18,
+      date: "19. February 2022",
+      desc: "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in, viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue. Curabitur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna.",
+    },
   ]
 
   export const popular = [
