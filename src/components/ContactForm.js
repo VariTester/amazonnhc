@@ -66,7 +66,7 @@ function ContactForm() {
                 })}/>
                 {errors.user_country?.type === 'required' && <p>The Country is required</p>}
                 
-                <textarea placeholder="Message" {...register('message',{
+                <textarea placeholder="Message" {...register('user_message',{
                     required: true,
                     minLength: 10,
                 })} rows="4"/>
