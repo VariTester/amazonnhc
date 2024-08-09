@@ -136,9 +136,10 @@ main .container{
 
 .details .author p{
     text-transform: capitalize;
-    text-align: start;
+    text-align: center;
     /* background: red; */
-    margin-right: 10px;
+    margin-left: 35px;
+    margin-right:1px;
     font-size: 15px;
 }
 
@@ -169,6 +170,7 @@ main .container{
     .author span{
         margin-left: 20px;
     }
+
 
     .quote p {
         text-align: justify;
