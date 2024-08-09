@@ -9,6 +9,7 @@ import Fpost from './fpost/Fpost'
 import Face from './facebook/Face'
 import Comments from './comments/Comments'
 import SideDiet from './sideContent/SideDiet'
+
 const AyahuascaData = () => {
   return (
     <>
@@ -18,16 +19,17 @@ const AyahuascaData = () => {
             <h1 className='title'>The prices and package</h1>
 
             <div className='author'>
-                <p>The minimum stay is 2 nights due to transportation logistics.</p>
-            </div>
+                <p>"Embark on a journey within, where every moment brings you closer to the clarity, healing, and transformation you've been seeking."</p>
+            </div> 
 
             <div className='desctop'>
-                <p>$265 USD per person, per night, double occupancy. Single occupancy is $295 USD per person, per night. You can pay in advance half of the price you chose through PayPal or Western Union and cancel the other half when we pick you up from your hotel. The full amount is due in USD and canceled at the moment of picking you up from your hotel.</p>
-                <p>Price includes pickup and return to hotel in Iquitos, transportation to and from lodge, healthy food corresponding to ayahuasca diet, pre-ayahuasca chanting, ayahuasca ritual ceremony, and guided journey by indigenous shaman, subsequently a flower bath to relax the body, soul, and spirit. The following morning, the shaman will help interpret your visions in terms of meaning and relevancy.</p>
-                <p>Ayahuasca ceremonies are conducted in the maloka (Large and rustic house where mosquitoes and other types of insects cannot enter), perfectly conditioned for the ceremony to ensure comfort and safety, which is located a two-minute walk from your bungalow. The ayahuasca used is harvested and prepared according to authentic and timeless traditions of indigenous shamans. This is to ensure the efficacy and purity of the brew. It is not pre-bought in markets or tourist places, where no one really knows what went into the concoction.</p>
+                <p>We offer a minimum stay of 2 nights, carefully designed for you to enjoy an authentic ayahuasca ceremony in a safe and comfortable environment. From the moment you arrive in Iquitos, we take care of everything : we pick you up from your hotel, bring you to our lodge, and provide you with healthy and delicious meals adapted to the ayahuasca diet.</p>
+                <p>The ayahuasca ceremony is held in a traditional maloka, a rustic and protected space, just a short walk from your bungalow. Guided by an indigenous shaman, you will embark on a deep journey of self-discovery and healing, followed by a flower bath to balance your body, mind, and spirit. The next morning, the shaman will help you interpret your visions, offering clarity and understanding.</p>
+                <p>We are committed to using the highest quality ayahuasca, harvested and prepared according to indigenous traditions, to ensure a pure and transformative experience. Don’t miss this opportunity! to learn more and secure your place in this unforgettable experience.</p> 
+                
             </div>
 
-            {/* <img src={img2} alt=''/> */}
+            {/* <img src={img2} alt=''/>
 
             {/* <div className='descbot'>
                 <h1>We provide complete trust and full healing for you to improve your health</h1>
